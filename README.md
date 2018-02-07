@@ -9,5 +9,5 @@ This Repository contains examples of data science projects completed by me for a
 ### Natural Language Processing
   + [Personalized Medicion: Redefining Cancer Treatment](https://github.com/Shonafeng/data-scientist-portfolio/tree/master/NLP:%20Personalized%20Medicine): A Kaggle competition project. To develop a Machine Learning algorithm that automatically classifies genetic variations base on evidence from text-based clinical literature
 ### Programming Sample
-  + Vending Machine Simulator: A course lab sumbission for Intro to Java at Johns Hopkins University. 
+  + [Vending Machine Simulator](https://github.com/Shonafeng/data-scientist-portfolio/tree/master/PS:%20JAVA_Vending%20Machine%20Simulator%20): A course lab sumbission for Intro to Java at Johns Hopkins University. 
   
