@@ -8,3 +8,6 @@ This Repository contains examples of data science projects completed by me for a
   + [Music Recommendation System](https://github.com/Shonafeng/data-scientist-portfolio/tree/master/ML:%20Recommend%20music%20to%20customer): A Kaggle competition project. To build a better music recommendation system using a donated dataset from KKBOX
 ### Natural Language Processing
   + [Personalized Medicion: Redefining Cancer Treatment](https://github.com/Shonafeng/data-scientist-portfolio/tree/master/NLP:%20Personalized%20Medicine): A Kaggle competition project. To develop a Machine Learning algorithm that automatically classifies genetic variations base on evidence from text-based clinical literature
+### Programming Sample
+  + Vending Machine Simulator: A course lab sumbission for Intro to Java at Johns Hopkins University. 
+  
