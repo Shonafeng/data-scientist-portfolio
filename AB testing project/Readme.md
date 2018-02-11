@@ -34,3 +34,11 @@ we need either more students stay beyond free trial period (retention) or more s
 - Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. 
 
 ## Measuring Variability
+
+|    **Evaluation matrics**    | **Standard Deviation** |
+|----------------|------------|
+| Gross conversion  | 0.0202 |
+| Retention      | 0.05494   |
+| Net conversion | 0.0156  |
+
+calculation details can be found in the Jupyter notebook
