@@ -42,3 +42,34 @@ we need either more students stay beyond free trial period (retention) or more s
 | Net conversion | 0.0156  |
 
 calculation details can be found in the Jupyter notebook
+
+## Choosing Number of Samples given power
+with alpha = 0.05 and beta of 0.2, we can get the pageview total that adequately power the experiment are
+
+| **Evaluation matrics** | **min detection** | **P** | **sample size** | **pagereview** |
+|------------------------|-------------------|-------|-----------------|----------------|
+| Gross conversion       | 0.01              | 0.206 | 25835           | 322937 |
+| Retention              | 0.01              | 0.53  | 39115           | 2370606 |
+| Net conversion         | 0.0075            | 0.109 | 27413           | 342662 |
+
+## Choosing Duration vs. Exposure
+- Duration for Retention matrics
+
+total number of pagereview needed = 2370606 * 2(experiment group and control group) = 4741212
+
+percentage of traffic 100%
+
+total requred days = 4741212/40000 = 119 days = 17 weeks 
+
+17 weeks Duration is too long for an experiement
+
+- Duration for Gross conversion and Net conversion
+
+total number of pagereview needed = 342662 * 2(experiment group and control group) = 685324 /n
+
+percentage of traffic 100%
+
+total requred days = 685324/40000 = 17 days 
+
+**I choose Gross conversion and Net conversion as evaluation metrics, since 17 days is a resonable duration for experiment**
+
