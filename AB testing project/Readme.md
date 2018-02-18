@@ -52,6 +52,7 @@ with alpha = 0.05 and beta of 0.2, we can get the pageview total that adequately
 | Retention              | 0.01              | 0.53  | 39115           | 2370606 |
 | Net conversion         | 0.0075            | 0.109 | 27413           | 342662 |
 
+sample size are caculated by [power calculator](http://www.evanmiller.org/ab-testing/sample-size.html)
 ## Choosing Duration vs. Exposure
 - Duration for Retention matrics
 
@@ -71,5 +72,20 @@ percentage of traffic 100%
 
 total requred days = 685324/40000 = 17 days 
 
-**I choose Gross conversion and Net conversion as evaluation metrics, since 17 days is a resonable duration for experiment**
+There might be other experiment to run at the same time, so I'm expecting to have 50% of the traffic, that result in 34 days of experiment duration.
+
+**I choose Gross conversion and Net conversion as evaluation metrics, since 34 days is a resonable duration for experiment**
+
+## Sanity Checks
+To check the invariance of matrics that has been equaly split between two groups. I construct a confidence interval for a difference in proportions, then check whether the difference between group values falls within that confidence level(alph =0.05).
+The sanity check function include in the ipython notebook. 
+Result:
+
+Pagereviews sanity check - pass
+
+clicks sanity check - pass
+
+payments sanity check - pass
+
+## Check for Practical and Statistical Significance
 
